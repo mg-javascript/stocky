@@ -1,0 +1,25 @@
+{
+  "name": "stocky",
+  "version": "1.0.0",
+  "description": "Get your stocks list",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "stocky": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maratgaliev/symdex.git"
+  },
+  "author": "Marat Galiev (http://maratgaliev.com)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.15",
+    "yahoo-finance": "^0.3.6",
+    "yargs": "^13.2.4"
+  }
+}
