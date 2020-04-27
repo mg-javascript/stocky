@@ -1,6 +1,6 @@
 {
   "name": "stocky",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get your stocks list",
   "main": "bin/index.js",
   "scripts": {
