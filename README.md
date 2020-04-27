@@ -6,7 +6,7 @@
 
 ```bash
 
-npm i -S stocky
+npm i -g stocky
 
 ```
 
