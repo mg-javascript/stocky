@@ -1,6 +1,6 @@
 {
   "name": "stocky",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Get your stocks list",
   "main": "bin/index.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "url": "https://github.com/maratgaliev/stocky.git"
   },
   "keywords": [
+    "stock",
+    "api",
+    "trading",
     "stocks",
     "symbols",
     "yahoo",
