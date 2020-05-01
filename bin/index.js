@@ -1,26 +1,31 @@
 #!/usr/bin/env node
 
-const chalk = require("chalk");
 const boxen = require("boxen");
+const chalk = require("chalk");
+const yargs = require("yargs");
 var yahooFinance = require('yahoo-finance');
 var _ = require('lodash');
-const yargs = require("yargs");
 
-const boxenOptions = {
- padding: 1,
- margin: 1,
- bold: true,
- borderStyle: "doubleSingle",
- borderColor: "green",
- backgroundColor: "#555555"
-};
+const colors = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white', 'gray']
+
+const selColor = colors[Math.floor(Math.random() * colors.length)];
 
 const options = yargs
  .usage("Usage: -s <symbol1 symbol2>")
  .option("s", { alias: "symbols", describe: "Your symbols", type: "array", demandOption: true })
+ .option("c", { alias: "color", describe: "Border color", type: "string", demandOption: false })
  .argv;
 
 const symbols = options.symbols;
+const argsColor = options.color;
+
+const boxenOptions = {
+  padding: 1,
+  margin: 1,
+  bold: true,
+  borderStyle: "doubleSingle",
+  borderColor: argsColor ? argsColor : selColor
+};
 
 yahooFinance.quote({
   symbols: symbols,

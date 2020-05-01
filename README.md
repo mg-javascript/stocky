@@ -14,12 +14,12 @@ npm i -g stocky
 
   
 ```bash
-
-stocky -s VTI EVIX
+# colors are: 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white', 'gray'
+stocky -s VTI EVIX -c green
 
 ```
 
-![stocky](https://api.monosnap.com/file/download?id=s7FEKXChw2poFUsigV9MahaH5clEay)
+![stocky](https://api.monosnap.com/file/download?id=DOgCrMqvrJBv5vJvdhTNqsSxUsJe58)
 
 ## License
 
