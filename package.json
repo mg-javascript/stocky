@@ -1,6 +1,6 @@
 {
   "name": "stocky",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Get your stocks list",
   "main": "bin/index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "boxen": "^4.0.0",
     "chalk": "^2.4.2",
     "lodash": "^4.17.15",
+    "text-wrapper": "^2.0.2",
     "yahoo-finance": "^0.3.6",
     "yargs": "^13.2.4"
   }
