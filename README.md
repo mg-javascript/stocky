@@ -19,7 +19,7 @@ stocky -s VTI EVIX -c "cyan" -i
 
 ```
 
-![stocky](https://api.monosnap.com/file/download?id=DOgCrMqvrJBv5vJvdhTNqsSxUsJe58)
+![stocky](https://api.monosnap.com/file/download?id=ebX6AHFyj5hXgaPyq2sRCslKuxdZkv)
 
 ## License
 

@@ -60,13 +60,15 @@ yahooFinance.quote({
       }
     }
   });
-  
+
   const symbolsBox = boxen(data.join('\n'), symbolsBoxenOptions);
+  
   console.log(symbolsBox);
 
   if(showInfo) {
     const infoBox = boxen(wrapper(info.join('\n')), infoBoxenOtions);
     console.log(infoBox);
   }
+
 });
 
