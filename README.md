@@ -15,7 +15,7 @@ npm i -g stocky
   
 ```bash
 # colors are: 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white', 'gray'
-stocky -s VTI EVIX -c red
+stocky -s VTI EVIX -c "red"
 
 ```
 
