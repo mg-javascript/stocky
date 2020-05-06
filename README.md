@@ -15,7 +15,7 @@ npm i -g stocky
   
 ```bash
 # colors are: 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white', 'gray'
-stocky -s VTI VUN.TO VXUS -c "cyan" -i
+stocky -s VTI VUN.TO VXUS -c "cyan" -i -a
 
 ```
 
